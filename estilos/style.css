@@ -36,7 +36,7 @@ Lilás: #5f2c82
     height: 500px;
     border-radius: 20px;
     transform: translate(-50%, -50%);
-    transition: width 0.2s, height 0.2s;
+    transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
  }
 
