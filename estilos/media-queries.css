@@ -19,13 +19,14 @@
         float: right;
         width: 70%;
     }
+
 }
 
 
 @media screen and (min-width: 1024px) {
     body {background-image: linear-gradient(to bottom, #2C3168, #6C9FFA);
     }
-    
+
     section#login {
         width: 990px;
     }
@@ -40,4 +41,13 @@
         float: right;
         width: 50%;
     }
+
+    div#formulario h1 {
+   font-size: 2em;
+    }
+
+    div#formulario p {
+   font-size: 1.2em;
+    }
+
 }
