@@ -14,7 +14,7 @@ Lilás: #5f2c82
  }
 
  body, html {
-    background-color: #5f2c82;
+    background-color: #2C3168;
     height: 100vh;
     width: 100vw;
  }
@@ -27,7 +27,7 @@ Lilás: #5f2c82
 
  section#login {
     position: absolute;
-    box-shadow:0px 0px 10px #3f1e5573;
+    box-shadow:0px 0px 10px rgba(40, 19, 54, 0.451);
     top: 50%;
     left: 50%;
     background-color: white;
@@ -36,6 +36,8 @@ Lilás: #5f2c82
     height: 500px;
     border-radius: 20px;
     transform: translate(-50%, -50%);
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
  }
 
  div#imagem {
